@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 130vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url('./src/assets/start-back-layer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#img{
+    height: 40px;
+    width: 190px;
+}
+#navbar{
+    /* border: 2px solid black; */
+    height: 100px;
+
+    
+}
+#h{
+    margin-top: 250px;
+    font-size: 55px;
+    color: white;
+    /* font-family: Work, sans-serif; */
+    font-style: italic;
+    /* font-family: Baskerville, serif; */
+    margin-left: 190px;
+    background-attachment: fixed;
+}
+#box2{
+    height: 280vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #f3f1eb;
+    /* background-image: url('../src/assets/home-stones-left-min.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+#box3{
+    width: 85%;
+    /* border: 1px solid black; */
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    /* flex-direction: row; */
+}
+
+#inner1{
+    height: inherit;
+    width: 65%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left:80px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+#inner1 #hi{
+    font-size: 45px;
+    font-family: cursive;
+}
+#inner1 h1{
+    font-size: 54px;
+}
+#inner2{
+    height: inherit;
+    width: 35%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 120px;
+    color: rgb(123, 123, 123);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: -1px;
+}
+#inner2 button{
+    padding: 8px 20px;
+    border-radius: 3px;
+    /* border: 1px solid black; */
+    background-color: transparent;
+    margin-top: 30px;
+}
+#sec2{
+    height: 700px;
+    width:85%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../src/assets//home-stones-left-min.png');
+}
+#sbox{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s1{
+    height: inherit;
+    width: 35%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+#s1 img{
+    height: 50%;
+    width: 87%;
+}
+#s2{
+    height: inherit;
+    width: 65%;
+    /* border: 2px solid orangered; */
+    /* background-image: url(''); */
+}
+#s2 img{
+    height: 100%;
+    width: 100%;
+}
+#box4{
+    height: 400px;
+    width: 85%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#inner3{
+    height: inherit;
+    width: 50%;
+    /* border: 2px solid pink; */
+}
+#inner3 img{
+    height: 100%;
+    width: 100%;
+}
+#inner4{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid blue; */
+    padding: 0px  70px 50px 40px;
+    text-align: left;
+}
+#inner4 p{
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-family: Edwardian Script ITC;
+}
+#sec3{
+    height: 150vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sb3{
+    height: 140vh;
+    width: 90%;
+    /* border: 2px solid plum; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../src/assets/bg1.jpg');
+    /* background-position: left; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#sh3{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    font-size: 55px;
+    color: #747473;
+    font-family:Blackadder ITC;
+}
+#sb3 #si1{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+#sb3 #si2{
+    position: absolute;
+    right: 220px;
+    top: 200px;
+}
+#sec4{
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid palevioletred; */
+    background-image: url('../src/assets/einklang-banner-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+#s4b{
+    height: inherit;
+    width: 80%;
+    /* border: 2px solid sandybrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#l{
+    width: 50%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction: column;
+}
+#r{
+    width: 50%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+#l p{
+    padding-top: 90px;
+    color: white;
+    padding-left: 30px;
+}
+#l h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 30px;
+}
+#r p{
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+#r button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 9px 20px;
+    color: white;
+    border-radius: 4px;
+}
+#sec5{
+    height: 200vh;
+    width: 100%;
+    background: #f3f1eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('//www.sestalaioles.com/cdn/shop/files/bodega-roots_1024x1024.png?v=1697439463');
+}
+#sb5{
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#sl{
+    width: 50%;
+    height: inherit;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 100px;
+}
+#sr{
+    width: 50%;
+    height: inherit;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#sl h1{
+    font-family: cursive;
+}
+#sl p{
+    padding-right: 78px;
+    padding-top: 30px;
+}
+#sl button{
+    width: 30%;
+    border: 1px solid  black;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+#sr img{
+    height: 80%;
+    width: 100%;
+    padding-top: 150px;
+}
+
+#sb51{
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#l5{
+    width: 70%;
+    height: inherit;
+    /* border: 2px solid navy; */
+}
+#r5{
+    width:30%;
+    height: inherit;
+    /* border: 2px solid navy; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 31px;
+}
+#l5 img{
+    height: 80%;
+    width: 100%;
+}
+#r5 h2{
+     font-family:Harrington;
+}
+#r5 #p{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+footer{
+    height: 95vh;
+    width: 100%;
+    /* border: 2px solid rosybrown; */
+    background:#8f897e;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foo{
+    height: inherit;
+    width: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fo1{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+#foo1{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid greenyellow; */
+    padding-top: 100px;
+}
+#foo1 h1{
+    font-family: Lucida Calligraphy;
+    /* font-weight: bold; */
+    color: black;
+    padding-right: 150px;
+}
+#foo1 h1::first-letter{
+    font-size: 60px;
+}
+#foo2{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+}
+#fm{
+    width: 50%;
+    /* border: 2px solid orange; */
+}
+#fm1{
+    width: 50%;
+    /* border: 2px solid orange; */
+}
+#fm #p{
+    padding-top: 50px;
+}
+#fm p{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+#fm1 #p{
+    padding-top: 50px;
+    color: #000;
+}
+#fm1 p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: black;
+}
+#fo2{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid red; */
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 66px;
+}
+#fo2 input{
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+#fo2 input::placeholder{
+    color: white;
+}
+#fo2 input:focus{
+    /* border: 1px solid #8f897e; */
+    outline: none;
+}
+span{
+    border: 1px solid black;
+    padding: 10px 20px 5px 20px;
+    border-radius: 3px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 12px;
+}
