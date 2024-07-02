@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    background-image: url('../src/sky-5534319_1920.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: auto;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.235);
+    /* background-color: rgba(0, 0, 0, 0.256); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+#inner1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+#inner2{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+p{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+input{
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+button{
+    padding: 7px 20px;
+    background-color: white;
+    border:1px solid white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+:focus{
+    outline: 0;
+}
+#inner2 #i1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction:row; */
+    /* border: 1px solid black ; */
+}
+#i{
+    width: 35%;
+    height: inherit;
+    /* border: 2px solid red; */
+    border-right: 3px solid rgba(255, 255, 255, 0.365);
+
+}
+#ii{
+    width: 44%;
+    height: inherit;
+    padding-left: 20px;
+    /* border: 2px solid red; */
+}
+
+#h3{
+    padding-left: 30px;
+}
+#h{
+    padding: 10px;
+}
+
+/* img{
+   border: 5px solid black;
+   background-size: cover;
+   background-position: left;
+} */

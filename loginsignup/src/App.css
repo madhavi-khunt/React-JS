@@ -1,0 +1,54 @@
+
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+#main{
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../src/assets/bg-01.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#login{
+  height: 530px;
+  width: 550px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  color: rgb(75, 74, 74);
+}
+input,button{
+  padding: 15px 10px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 10px;
+  border: 1px solid rgb(220, 217, 217);
+  background-color: rgba(243, 243, 243, 0.594);
+}
+#login h1{
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+#login button{
+  padding: 15px 150px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+  font-size: 17px;
+}
+p{
+  cursor: pointer
+}
+icon{
+  padding: 50px;
+}
