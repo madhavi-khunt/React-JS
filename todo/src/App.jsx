@@ -1,12 +1,17 @@
-import './App.css';
-import Render from './Components/Render';
+import './App.css'
+import Todo from './components/Todo'
+import Count from './components/Count'
+import Contact from './components/Contact'
 
 function App() {
+
   return (
-      <div>
-        <Render/>
-      </div>
+    <>
+      {/* <Todo/> */}
+      {/* <Count/> */}
+      <Contact/>  
+    </>
   )
 }
 
-export default App;
+export default App
