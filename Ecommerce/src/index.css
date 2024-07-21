@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* login page */
+#login{
+    height: 88vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #form{
+    width: 60%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 90px;
+  }
+  #ld{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid black; */
+  }
+  #form h6 span{ 
+    font-size: 20px;
+  }
+  #form p{
+    font-size: 11.1px;
+  }
+  #form label{
+    font-size: 12px;
+  }
+  #form input{
+    width: 80%;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    font-size: 12px;
+  }
+  #s{
+    background-color: black;
+    color: white;
+  }
+  #box{
+    height: 320px;
+    width: 350px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    background-color: rgb(244, 244, 244);
+    padding: 30px 20px;
+    font-size: 10px;
+  }
+  #fp{
+    word-spacing: 2px;
+    padding: 8px 0px;
+  }
+  #bi{
+    padding-right: 20px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  #sp{
+    word-spacing: 2px;
+    padding: 7px 0px;
+  }
+  #acc{
+    padding-top: 10px;
+  }
+  #ll{
+    color: black;
+  }

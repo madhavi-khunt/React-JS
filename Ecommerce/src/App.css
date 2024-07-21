@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* error page */
+#err{
+  height: 80vh;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* signup page */
+#signup,.form{
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sd1{
+  height: inherit;
+  width: 50%;
+  /* border: 1px solid black; */
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  /* margin: 90px; */
+}
+#sd2{
+  height: inherit;
+  width: 50%;
+  /* border: 1px solid black; */
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 160px;
+  padding-bottom: 50px;
+
+}
+#sd1 h6{
+  font-family: Arial;
+}
+#sd1 h6 span{
+  font-size: 20px;
+  font-weight: normal;
+}
+#sd1 p{
+  font-size: 11px;
+  font-family:sans-serif;
+}
+#links{
+  /* text-decoration: underline; */
+  color: black;
+}
+#sd1 input,select{
+  width: 90%;
+  border: 1px solid rgb(203, 202, 202);
+  padding: 6px 6px;
+  border-radius: 5px;
+}
+#sd1 select{
+  padding: 10px 0px;
+}
+#sd1 select option{
+  font-size: 10px;
+  color: gray;
+}
+#sd2 input{
+  width: 90%;
+  border: 1px solid rgb(203, 202, 202);
+  padding: 6px 6px;
+  border-radius: 5px;
+}
+#s{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+
+/* product page */
+#product{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 50px 0px;
+}
+#pd1{
+  width: 20%;
+  height: inherit;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 60px 50px;
+
+}
+#pd2{
+  width: 75%;
+  height: inherit;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 50px 0px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  /* background-color: ; */
+}
+#ct{
+  font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .025rem;
+    line-height: 1.5rem;
+}
+#card{
+  width: 33.33%;
+  border: 0px solid black;
+  border-radius: 0px;
+  /* padding: 10px 0px; */
+  margin: 10px 0px;
+  background: rgb(228,233,230);
+                background: linear-gradient(90deg, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 12%, rgba(203,208,205,1) 86%);
+}
+#ci{
+  height: 250px;
+  border-radius: 0px;
+}
+#pd1 span{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sear{
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 12px;
+  color: palevioletred;
+}
+:focus{
+  outline: none;
+
+}
+
+
+
+
+
+/* home Page */
+
+#ssec{
+  height:auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#secd1{
+    height: auto;    
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  20px 0px 50px 0px;
+}
+#secd2{
+    height: auto;  
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sbox{
+  margin: 10px 0px;
+  flex-basis: 24%;
+  height: 350px;
+  /* width: 250px; */
+  /* border: 1px solid black; */
+}
+#box-top{
+  height: 300px;
+  width: 250px;
+  /* border: 1px solid black; */
+}
+#box-top img{
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+}
+#box-bottom{
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-bottom p{
+  font-size: 12px;
+}
+#tsec{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  flex-direction: column;
+}
+#tsed1{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+#tsed1 h5{
+  font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  /* margin: 0; */
+  /* padding: 0; */
+  letter-spacing: 2px;
+}
+#tsed1 p{
+  padding: 0;
+  /* margin: 0; */
+  font-size: 12px;
+}
+ #lfont{
+  font-size: 12px;
+  color: black;
+}
+#tsed2{
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-image: url('../src//assets/Women_Handbags_Evergreen_LG_WW_HP_Push_V20240712_DI3.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  /* transition: 2s; */
+}
+
+#tsed3{
+  height: auto;
+  width: 85%;
+  /* border: 1px solid black;  */
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 30px 0px;
+}
+#mbox{
+  flex-basis: 24%;
+  height: 350px;
+  width: 250px;
+  /* border: 1px solid black; */
+ 
+}
+#mbtop{
+  height: 300px;
+  width: 250px;
+  /* border: 1px solid black; */
+  background: rgb(228,233,230);
+  background: linear-gradient(90deg, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 12%, rgba(203,208,205,1) 86%);
+}
+#mbtop img{
+  height: 100%;
+  width: 100%;
+}
+#mbbottom{
+  height: 50px;
+  /* border: 1px solid black; */
+}
+#mbbottom p{
+  padding: 5px 5px;
+  margin: 0;
+  font-size: 12px;
+}
+#fsec{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#fsed1{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+#fsed1 p{
+  padding: 5px 5px;
+  margin: 0;
+  font-size: 12px;
+}
+#fsed2{
+  height: 90vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-image: url('../src//assets/2400.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  /* transition: 2s; */
+}
+#fsed3{
+  height: auto;
+  width: 85%;
+  /* border: 1px solid black;  */
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 30px 0px;
+}
+#fsebox{
+  flex-basis: 24%;
+  height: 350px;
+  width: 250px;
+  /* border: 1px solid black; */ 
+}
+#pbtop{
+  height: 300px;
+  width: 250px;
+  /* border: 1px solid black; */
+  background: rgb(228,233,230);
+  background: linear-gradient(90deg, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 12%, rgba(203,208,205,1) 86%);
+}
+#pbtop img{
+  height: 100%;
+  width: 100%;
+}
+#pbbottom{
+  height: 50px;
+  /* border: 1px solid black; */
+}
+#pbbottom p{
+  padding: 5px 5px;
+  margin: 0;
+  font-size: 12px;
+}
+#fisec{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#fisd1{
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+#fisd1 p{
+  padding: 5px 5px;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+}
+#fisd2{
+  height: auto;
+  width: 85%;
+  /* border: 1px solid black;  */
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 30px 0px;
+}
+#fisebox{
+  flex-basis: 32%;
+  height: 450px;
+  width: 250px;
+  /* border: 1px solid black; */ 
+}
+#fistop{
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+#fistop img{
+  height: 100%;
+  width: 100%;
+}
+#fisbbottom{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+#fisbbottom p{
+  padding: 5px 0px;
+  margin: 0;
+  font-size: 12px;
+}
+
+
+
+
+/* singleproduct  page */
+#sinpro{
+  height: 80vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#spd1{
+  height: inherit;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(228,233,230);
+  background: linear-gradient(90deg, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 0%, rgba(228,233,230,1) 12%, rgba(203,208,205,1) 86%);
+}
+#spd1 img{
+  height: 100%;
+  width: 90%;
+  /* border: 1px solid black; */
+}
+#spd2{
+  height: inherit;
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 0px 160px;
+  position: relative;
+}
+#stitle{
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+#sprice{
+  margin: 0;
+  font-size: 12px;
+}
+#smrp{
+  margin: 0;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+#scbtn{
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 9px 60px;
+  border: none;
+  margin-bottom: 10px;
+}
+#sdes{
+  font-size: 12px;
+  color: rgb(152, 127, 127);
+}
+#sdch{
+  font-size: 12px;
+  margin: 0;
+  padding-top: 10px;
+}
+#spd{
+  font-size: 12px;
+  margin: 0;
+  padding-top: 5px;
+}
+#spd2 .bi{
+  top: 110px;
+  right: 200px;
+  font-size: 12px;
+  position: absolute;
+}

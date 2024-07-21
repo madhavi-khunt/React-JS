@@ -1,0 +1,231 @@
+{
+  "user": [
+    {
+      "id": "797a",
+      "email": "mk@gmail.com",
+      "password": "12",
+      "title": "ms",
+      "fname": "madhavi",
+      "lname": "khunt",
+      "dob": "2003-04-07"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "LV Bundle",
+      "category": "women's bag",
+      "bag": "Bucket Bags",
+      "price": 266000,
+      "image": "../src/assets/louis-vuitton-lv-bundle--M25453_PM2_Front20view.png",
+      "rate": 4.8
+    },
+    {
+      "id": "2",
+      "title": "Néonoé BB",
+      "category": "women's bag",
+      "bag": "Bucket Bags",
+      "price": 190000,
+      "image": "../src/assets/louis-vuitton-neonoe-bb--M46581_PM2_Front20view.png",
+      "rate": 5
+    },
+    {
+      "id": "3",
+      "title": "Zippy XL Wallet",
+      "category": "men's bag",
+      "bag": "BLong Wallets",
+      "price": 101000,
+      "image": "../src/assets/louis-vuitton-zippy-xl-wallet--M61698_PM2_Front view.avif",
+      "rate": 4.9
+    },
+    {
+      "id": "4",
+      "title": "Sac Plat 24H",
+      "category": "men's bag",
+      "bag": "Business Bags",
+      "price": 310000,
+      "image": "../src/assets/louis-vuitton-sac-plat-24h--M47059_PM2_Front view.avif",
+      "rate": 4.8
+    },
+    {
+      "id": "5",
+      "title": "Croissant MM",
+      "category": "women's bag",
+      "bag": "Crossbody & Shoulder Bags",
+      "price": 273000,
+      "image": "../src/assets/louis-vuitton-croissant-mm--M46828_PM2_Front20view.png",
+      "rate": 4.3
+    },
+    {
+      "id": "6",
+      "title": "CarryAll PM",
+      "category": "women's bag",
+      "bag": "Crossbody & Shoulder Bags",
+      "price": 282000,
+      "image": "../src/assets/louis-vuitton-carryall-pm--M11462_PM2_Front20view.png",
+      "rate": 4.5
+    },
+    {
+      "id": "7",
+      "title": "Loop Hobo",
+      "category": "women's bag",
+      "bag": "Crossbody & Shoulder Bags",
+      "price": 248000,
+      "image": "../src/assets/louis-vuitton-loop-hobo--M46311_PM2_Front20view.png",
+      "rate": 4.1
+    },
+    {
+      "id": "8",
+      "title": "Loop",
+      "category": "women's bag",
+      "bag": "Cossbody & Shoulder ags",
+      "price": 255000,
+      "image": "../src/assets/louis-vuitton-loop--M24846_PM2_Front20view.png",
+      "rate": 4.4
+    },
+    {
+      "id": "9",
+      "title": "Keepall Bandoulière 25",
+      "category": "men's bag",
+      "bag": "Leather Bags Selection",
+      "price": 254000,
+      "image": "../src/assets/louis-vuitton-keepall-bandouliere-25--M11996_PM2_Front view.avif",
+      "rate": 4.2
+    },
+    {
+      "id": "10",
+      "title": "LV Driver Mocassin",
+      "category": "men's shoes",
+      "bag": "shoes",
+      "price": 82000,
+      "image": "../src/assets/louis-vuitton-lv-driver-mocassin--BRLL2MGCEB_PM2_Front view.avif",
+      "rate": 4.6
+    },
+    {
+      "id": "11",
+      "title": "Tambour Street Diver Chronograph, automatic, 46mm, steel",
+      "category": "watch",
+      "bag": "watch",
+      "price": 995000,
+      "image": "../src/assets/louis-vuitton-tambour-street-diver-chronograph-automatic-46mm-steel--QA167A_PM2_Front view.avif",
+      "rate": 4.5
+    },
+    {
+      "id": "12",
+      "title": "LV Trainer Maxi Sneaker",
+      "category": "men's shoes",
+      "bag": "shoes",
+      "price": 160000,
+      "image": "../src/assets/louis-vuitton-lv-trainer-maxi-sneaker--BRQU4PPC02_PM1_Side view.avif",
+      "rate": 4.5
+    },
+    {
+      "id": "13",
+      "title": "Cufflinks, Diamonds",
+      "category": "Jewelry",
+      "Products": "Brooches and Cufflinks",
+      "price": 605000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Categories_Others_Jan24_DI36.jpg",
+      "rate": 4.8
+    },
+    {
+      "id": "14",
+      "title": "Empreinte Bangle, Yellow Gold",
+      "category": "Jewelry",
+      "Products": "Empreinte",
+      "price": 705000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Categories_Bracelets_Jan24_DI33.jpg",
+      "rate": 4.7
+    },
+    {
+      "id": "15",
+      "title": "Les Gastons Vuitton Small Tag Pendant, Yellow Gold and Titanium",
+      "category": "Jewelry",
+      "Products": "Les Gastons Vuitton",
+      "price": 335000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Collections_Les20Gastons_Dec23_DI3.jpg",
+      "rate": 4.9
+    },
+    {
+      "id": "16",
+      "title": "Les Gastons Vuitton Puzzle Ring, Yellow Gold and Titanium",
+      "category": "Jewelry",
+      "Products": "Les Gastons Vuitton",
+      "price": 460000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Highlights_Latestcreations_Jan24_DI3.jpg",
+      "rate": 4.2
+    },
+    {
+      "id": "17",
+      "title": "Les Gastons Vuitton Tag Single Hoop, White Gold",
+      "category": "Jewelry",
+      "Products": "Les Gastons Vuitton",
+      "price": 370000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Categories_Earrings_Jan24_DI3.jpg",
+      "rate": 5
+    },
+    {
+      "id": "18",
+      "title": "LV Volt Mesh Necklace, Yellow Gold",
+      "category": "Jewelry",
+      "Products": "STATEMENT CREATIONS​​",
+      "price": 1160000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Highlights_Statementcreations_MM_DI3.jpg",
+      "rate": 4.9
+    },
+    {
+      "id": "19",
+      "title": "Colour Blossom Medallion, Yellow Gold, White Gold, White Agate And Diamonds",
+      "category": "Jewelry",
+      "Products": "Necklaces and Pendants",
+      "price": 1620000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Categories_Necklaces20Pendants_Fev24_DI33.jpg",
+      "rate": 4.7
+    },
+    {
+      "id": "20",
+      "title": "Idylle Blossom Pendant, Pink Gold And Diamonds",
+      "category": "Jewelry",
+      "Products": "Necklaces and Pendants",
+      "price": 455000,
+      "image": "../src/assets/louis-vuitton--Jewelry_Categories_All20Fine20Jewelry_Jan24_DI38.jpg",
+      "rate": 4.4
+    },
+    {
+      "id": "21",
+      "title": "Horizon 55",
+      "category": "men's bag",
+      "Products": "Leather Bags Selection",
+      "price": 355000,
+      "image": "../src/assets/louis-vuitton-horizon-55--M10149_PM2_Front view.avif",
+      "rate": 4.6
+    },
+    {
+      "id": "22",
+      "title": "Montgolfière Aéro",
+      "category": "watch",
+      "Products": "watch",
+      "price": 5100000,
+      "image": "../src/assets/louis-vuitton-montgolfiere-aero--Q1TC10_PM2_Front view.avif",
+      "rate": 4.6
+    },
+    {
+      "id": "23",
+      "title": "California Dream",
+      "category": "Perfumes",
+      "Products": "Perfumes",
+      "price": 28000,
+      "image": "../src/assets/louis-vuitton-california-dream--LP0175_PM2_Front view.avif",
+      "rate": 4.6
+    },
+    {
+      "id": "24",
+      "title": "Ombre Nomade",
+      "category": "Perfumes",
+      "Products": "Perfumes",
+      "price": 36000,
+      "image": "../src/assets/louis-vuitton-ombre-nomade--LP0095_PM2_Front view.avif",
+      "rate": 4.6
+    }
+  ]
+}
